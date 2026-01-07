@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #F5F5F5;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    
+}
+.font{
+    font-family: "Fira Sans", sans-serif;
+}
+
+/* nav section */
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0;
+}
+nav h2{
+    font-size: 32px;
+    color:#0E0E0E;
+}
+nav .btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: #006A50;
+    border: 2px solid #006A50;
+    padding: 15px 30px;
+    border-radius: 8px;
+
+}
