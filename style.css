@@ -1,12 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: #F5F5F5;
 }
 .container{
     max-width: 1280px;
     margin: 0 auto;
     
+}
+body{
+ background-color: #F5F5F5;   
 }
 .font{
     font-family: "Fira Sans", sans-serif;
@@ -29,5 +31,40 @@ nav .btn{
     border: 2px solid #006A50;
     padding: 15px 30px;
     border-radius: 8px;
-
+    
+}
+/* Hero section */
+.hero-section{
+     display: flex;
+     justify-content: space-between;
+     gap: 64px;
+     align-items: center;
+     padding: 80px 100px;
+     border-radius: 24px;
+     background: rgba(198, 228, 214, 1);    
+} 
+.hero-section .hero-content{
+    max-width: 622px;
+}
+.hero-section .hero-content h3{
+    font-size: 24px;
+    color:  rgba(14, 14, 14, 0.5);;
+    margin-bottom: 16px;
+}
+.hero-section .hero-content h1{
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.hero-section .hero-content .explore{
+    margin-top: 24px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background: #006A50;
+    border-radius: 8px;
+}
+.hero-section .hero-img{
+    width: 474px;
 }
