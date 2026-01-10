@@ -186,6 +186,56 @@ font-size: 16px;
 font-weight: 600;
  }
  .future-section .chief{
-    background: url(./assets/quote-bg.png);
-    background-repeat: no-repeat;
+    /* background: url(./assets/quote-bg.png);
+    background-repeat: no-repeat; */
+    border: 2px solid #f4eeee;
+    border-radius: 16px;
+    padding: 48px 24px;
+    background-color: #fff;
+    position: relative;
+   
  } 
+ .future-section  .quote-icon{
+    font-size: 65px;
+    color: rgba(14, 14, 14, 0.3);
+    position: absolute;
+    left:18px;
+    top: 20px;
+    /* opacity 0-1  */
+    opacity: 0.8;
+}
+/*Opinion Matters section*/
+.opinion-container{
+    background-color: #fff;
+    border-radius: 16px;
+    padding: 30px;
+}
+.opinion-container table{
+    border-collapse:collapse ;
+    border: 1px solid #d5d6d8 ;
+    width: 100%;
+}
+.opinion-container th ,td{
+    padding: 20px;
+}
+.opinion-container th{
+    background:#c6e4d6;
+    text-align: left;
+    font-weight: 600;
+    font-size: 18px;
+}
+.opinion-container td{
+    border: 1px solid #d5d6d8;
+    font-weight: 600;
+
+}
+.opinion-container select{
+ background-color: #c6e4d6;
+ text-align: left;
+ font-weight: 600;
+ padding: 10px 15px;
+ border-radius: 4px;
+ border: 1px solid #09a15c;
+ width: 100%;
+ cursor: pointer;
+}
